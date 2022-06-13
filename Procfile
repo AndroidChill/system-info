@@ -1,1 +1,1 @@
-web: ./build/install/info.zette.com/bin/info.zette.com
+web: ./build/install/ru.playzone.playzone-backend/bin/ru.playzone.playzone-backend
