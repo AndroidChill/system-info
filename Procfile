@@ -1,0 +1,1 @@
+web: ./build/install/com.zette.info.system-info/bin/com.zette.info.system-info

@@ -1,0 +1,1 @@
+rootProject.name = "info.zette.com.system-info"
