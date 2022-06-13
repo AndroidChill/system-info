@@ -1,1 +1,1 @@
-web: ./build/install/com.zette.info.system-info/bin/com.zette.info.system-info
+web: ./build/install/info.zette.com/bin/info.zette.com
