@@ -1,11 +1,12 @@
 package info.zette.com
 
+import info.zette.com.plugins.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
-import info.zette.com.plugins.*
+
 
 fun main() {
-    embeddedServer(Netty, port = 8080, host = "0.0.0.0") {
+    embeddedServer(Netty, port = System.getenv("PORT").toInt()) {
         configureRouting()
         configureSerialization()
         configureMonitoring()
